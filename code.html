@@ -1,0 +1,2789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=UTF-8 />
+
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+<link rel="stylesheet" href="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/css/global.css" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/thirdPartyLibs/OwlCarousel2-2.3.4/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/thirdPartyLibs/OwlCarousel2-2.3.4/owl.theme.default.min.css" />
+
+
+
+
+
+    <script referrerpolicy="no-referrer-when-downgrade" type="text/javascript" src="https://xapis.onelink-edge.com/moxie.min.js" data-oljs="PC03A-4F4A-C542-CCB6"></script>
+
+
+
+
+<script src="//use.typekit.net/pfb7egw.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+
+	
+
+	<script src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/includesPolyfill.js"></script>
+	<script type="text/javascript" src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/frontanalytics.min.js" defer ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        <script type="text/javascript" src="https://try.abtasty.com/82c07b80b8c036a581f17a1a0e647450.js"></script>
+
+<style type="text/css">
+	@media (min-width: 992px) {
+		.category-info-custom.custom-cat-landing-page {
+			padding-top: 50px !important;
+		}
+	}
+</style>
+    
+
+
+
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _analytics_enabled: "true",
+    _timeZone: "Australia/Melbourne",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    },
+    eventsIsEmpty: function() {
+        return 0 == dw.ac._events.length;
+    }
+};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bdbn-PenfoldsROW';
+CQuotient.realm = 'BDBN';
+CQuotient.siteId = 'PenfoldsROW';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'zh_CN';
+CQuotient.fbPixelId = '__UNKNOWN__';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.apiHost='api.cquotient.com';
+/* Turn this on to test against Staging Einstein */
+/* CQuotient.useTest= true; */
+CQuotient.useTest = ('true' === 'false');
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+
+
+<script src="js/vue.min.js"></script>
+<script src="js/vue-resource.min.js"></script>
+
+
+
+</head>
+<body>
+<script>
+var wishlistIds = "";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page mob-carousel-1 custom-nav-icons penfolds brandprotection-validate null guest"
+data-action="BrandProtection-Validate"
+data-querystring="p=B2MBCZ1C"
+data-selectbox-enabled="true"
+data-redirect-target-site="true"
+>
+
+
+
+
+
+
+
+
+
+<div class="header-content">
+    <div class="header-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col mobile-hidden">
+                    <div class="account-name">
+                          
+                    </div>
+                </div>
+                <div class="col pt-2 pb-2 text-center">
+                    <div class="slot-content">
+                        
+	 
+
+
+	
+    
+    <div class="html-slot-container"
+         data-item-id="header-banner-m"
+         data-item-type="slot"
+         data-item-configuration-id="null"
+         data-item-context="global"
+         data-item-context-id="">
+        
+            <div>Making remarkable wines since 1844</div>
+        
+    </div>
+
+
+ 
+	
+                    </div>
+                </div>
+                <div class="col user-links mobile-hidden">
+                    
+
+<ul class="user-navigation">
+    <li>
+        <a
+            class="change-region"
+            data-toggle="modal"
+            data-target="#changeRegionModal"
+            href="https://www.penfolds.cn/zh-cn/location-reset">
+            <i class="icon icon-header-region-selection-inactive"></i>地区
+        </a>
+    </li>
+
+    
+        <li class="change-language" data-url="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Page-SetLocale">
+            <label>
+                <i class="icon icon-language-mobile-white-small"></i>
+                语言
+            </label>
+            <div class="popover popover-bottom">
+                
+                    <a href="#" data-locale="zh_CN" data-currencyCode="AUD" 
+                    data-update-agegate-cookie-url="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/AgeGate-UpdateAgeGateCookie?isoLocale=zh_CN&amp;multiLocale=true">
+                        简体中文
+                    </a>
+                
+                    <a href="#" data-locale="en_CN" data-currencyCode="AUD" 
+                    data-update-agegate-cookie-url="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/AgeGate-UpdateAgeGateCookie?isoLocale=en_CN&amp;multiLocale=true">
+                        English
+                    </a>
+                
+            </div>
+        </li>
+    
+    
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="common-header ">
+        <nav role="navigation">
+            <div class="mobile-post-header-container"></div>
+            <div class="header menu-full-width">
+                <div class="brand-wrapper">
+                    <div class="navbar-header brand">
+                        <a href="/zh-cn/home" title="Penfolds 主页">
+                            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="brand-logo"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="5c4ae5b5526aadee1507f16d07" -->
+			<div class="brand-logo">
+                <img src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw7d2f5418/images/brand-logo/penfolds-logo-desktop-main.svg" alt="penfolds logo" title="Penfolds Home" />
+                </div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="navbar-header navbar-navigation clearfix">
+                        <div class="pull-left">
+                            <button class="navbar-toggler d-xl-none" type="button" aria-controls="sg-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="icon icon-hamburger-inactive"></i>
+                            </button>
+                            <div class="main-menu navbar-toggleable-lg menu-toggleable-left multilevel-dropdown" id="sg-navbar-collapse">
+                                <div class="container mobile-container">
+                                    <div class="row mobile-header-row">
+                                        
+<nav class="navbar navbar-expand-md fixed-mega-menu">
+    <div class="menu-group" aria-label="Main menu" role="navigation">
+        <ul class="nav navbar-nav d-lxl-none" role="menu">
+            
+                
+                    
+                        <li class="nav-item" role="menuitem">
+                            <a href="https://www.penfolds.cn/zh-cn/occasions/gift-guide.html" id="x-gift-guide" role="button" class="nav-link">Copy of 关于PENFOLDS</a>
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item dropdown" role="menuitem">
+                            <a href="https://www.penfolds.cn/zh-cn/wines" id="wines" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span>葡萄酒</span></a>
+                            
+                            <ul class="first-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/penfolds-wines.html" id="all-wines" role="button" class="dropdown-link">All Wines</a>
+            </li>
+        
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/penfolds-collection-2025" id="x-new-collection" role="button" class="dropdown-link">New Collection</a>
+            </li>
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/ranges.html" id="ranges" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>按系列搜索</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/penfolds-collection-2025" id="x-the-penfolds-collection" role="button" class="dropdown-link">The Penfolds Collection</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/one.html" id="xx-one" role="button" class="dropdown-link">ONE by Penfolds</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/maxs" id="maxs" role="button" class="dropdown-link">Max&rsquo;s麦克斯系列</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/ranges/koonunga-hill" id="koonunga-hill" role="button" class="dropdown-link">蔻兰山</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/ranges/cellar-reserve" id="cellar-reserve" role="button" class="dropdown-link">酒窖珍藏系列</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/limited-editions" id="limited-editions" role="button" class="dropdown-link">限量版</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/wine-type.html" id="type" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>Wine Type</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/red-wine" id="x-red-wine" role="button" class="dropdown-link">Red Wine</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/white-wine" id="x-white-wine" role="button" class="dropdown-link">White Wine</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/champagne" id="x-champagne" role="button" class="dropdown-link">Champagne</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/fortifieds" id="x-fortified" role="button" class="dropdown-link">Fortified</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/varietals.html" id="varietals" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>按葡萄品种搜索</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/varietals/cabernet-sauvignon" id="cabernet-sauvignon" role="button" class="dropdown-link">赤霞珠</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/varietals/chardonnay" id="chardonnay" role="button" class="dropdown-link">霞多丽</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/varietals/shiraz" id="shiraz" role="button" class="dropdown-link">设拉子</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/varietals/multi-varietal-blends" id="multi-varietal-blends" role="button" class="dropdown-link">跨葡萄品种混酿</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals.html" id="xx-see-all-varietals" role="button" class="dropdown-link">See All</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/regions.html" id="regions" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>按产区搜索</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/australian" id="x-australia" role="button" class="dropdown-link">Australia</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/chinese" id="x-china" role="button" class="dropdown-link">China</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/french" id="x-french" role="button" class="dropdown-link">France</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/californian" id="x-united-states" role="button" class="dropdown-link">United States</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/occasions.html" id="occasions" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>按场景搜索</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/occasions/gifting" id="gifting" role="button" class="dropdown-link">Gifting</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="/zh-cn/wines/occasions/lunar-new-year" id="lunar-new-year" role="button" class="dropdown-link">农历新年</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wines/tasting-notes.html" id="x-tasting-notes" role="button" class="dropdown-link">品鉴笔记</a>
+            </li>
+        
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/wine-advice.html" id="xx-wine-advice" role="button" class="dropdown-link">Wine Advice</a>
+            </li>
+        
+    
+    <li class="col-md-7 first-level-category-content">
+        <div class="mega-menu-content">
+            
+	 
+
+
+	
+    <div class="mega-menu-content">
+        
+        <div class="html-slot-container"
+            data-item-id="mega-menu-slot"
+            data-item-type="slot"
+            data-item-configuration-id="null"
+            data-item-context="global"
+            data-item-context-id="">
+            
+                <section>
+	<div class="p-0">
+		<img class="mw-100" src="https://www.penfolds.cn/on/demandware.static/-/Sites/default/dwd80af104/Penfolds/1-Images/Landscape/470x330-mega-menu/470x330-gift-guide-2025.jpg">
+		<p class="mb-0 mt-1">GIVE THE GIFT OF PENFOLDS</p>
+		<a href="https://www.penfolds.cn/zh-cn/occasions/gift-guide.html">Explore Our Gift Guide</a>
+	</div>
+</section>
+            
+        </div>
+    </div>
+
+ 
+	    
+        </div>
+    </li>
+</ul>
+
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item dropdown" role="menuitem">
+                            <a href="https://www.penfolds.cn/zh-cn/about-us.html" id="x-story" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span>关于PENFOLDS</span></a>
+                            
+                            <ul class="first-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/about-us.html" id="x-about" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>About Penfolds</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/our-history.html" id="x-our-history" role="button" class="dropdown-link">Penfolds奔富历史</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/our-founders.html" id="x-our-founders" role="button" class="dropdown-link">Founders</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/the-story-of-grange.html" id="x-the-story-of-grange" role="button" class="dropdown-link">葛兰许的故事</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/awards-accolades.html" id="x-awards-accolades" role="button" class="dropdown-link">得分与奖项</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/historic-releases" id="x-historic-releases" role="button" class="dropdown-link">Historic Releases</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/about-us/winemaking.html" id="x-winemaking" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>酿酒工艺</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/winemaking/our-winemakers.html" id="x-winemakers" role="button" class="dropdown-link">我们的酿酒师</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/winemaking/our-vineyards.html" id="x-vineyards" role="button" class="dropdown-link">Penfolds的葡萄园</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/about-us/sustainability.html" id="x-sustainability" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>Evermore</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/sustainability/sustainability-news.html" id="x-evermore-news" role="button" class="dropdown-link">Evermore News</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/about-us/news-collaborations.html" id="x-collaborations" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>合作</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/lunar-new-year.html" id="x-lny" role="button" class="dropdown-link">Lunar New Year</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/holiday-2025.html" id="x-2025-holiday" role="button" class="dropdown-link">From Penfolds to the World</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/penfolds-collection-2025.html" id="x-2025-collection" role="button" class="dropdown-link">2025 Collection</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/lachapelle.html" id="x-lachapelle" role="button" class="dropdown-link">Grange La Chapelle</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/collaborations.html" id="x-see-all-collaborations" role="button" class="dropdown-link">See All</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+    <li class="col-md-7 first-level-category-content">
+        <div class="mega-menu-content">
+            
+	 
+
+	    
+        </div>
+    </li>
+</ul>
+
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item dropdown" role="menuitem">
+                            <a href="https://www.penfolds.cn/zh-cn/experiences.html" id="x-experiences" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span>参观PENFOLDS</span></a>
+                            
+                            <ul class="first-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-cellar-door.html" id="x-cellardoors" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>Cellar Door</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-cellar-door.html" id="x-magill-estate-cellar-door" role="button" class="dropdown-link">玛格尔庄园零售店</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="col-xl-5 first-level-category dropdown-item dropdown" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/experiences/dining.html" id="x-restaurants" class="dropdown-first-level dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true"><span>Dining</span></a>
+                
+                <ul class="second-level-categories dropdown-menu" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-kitchen.html" id="x-magill-estate-kitchen" role="button" class="dropdown-link">玛格尔庄园咖啡店</a>
+        </li>
+    
+        <li class="second-level-category dropdown-item" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-restaurant.html" id="x-magill-estate-restaurant" role="button" class="dropdown-link">玛格尔庄园餐厅</a>
+        </li>
+    
+</ul>
+
+            </li>
+
+        
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/experiences/events/upcoming-events.html" id="x-upcoming-events" role="button" class="dropdown-link">未来活动</a>
+            </li>
+        
+    
+        
+            <li class="first-level-category dropdown-item" role="menuitem">
+                <a href="https://www.penfolds.cn/zh-cn/experiences/events/recorking-clinics.html" id="x-recorking-clinics" role="button" class="dropdown-link">换塞诊所</a>
+            </li>
+        
+    
+    <li class="col-md-7 first-level-category-content">
+        <div class="mega-menu-content">
+            
+	 
+
+
+	
+    <div class="mega-menu-content">
+        
+        <div class="html-slot-container"
+            data-item-id="mega-menu-slot"
+            data-item-type="slot"
+            data-item-configuration-id="null"
+            data-item-context="global"
+            data-item-context-id="">
+            
+                <section>
+	<div class="megaMenu-container">
+		<div class="cards p-0">
+			<img src="https://www.penfolds.cn/on/demandware.static/-/Sites/default/dw2e578327/Penfolds/1-Images/Landscape/400x200-Magill-Estate-Restaurant-Dish.png" />
+			<p class="mb-0 mt-2">Magill Estate Restaurant</p>
+			<a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-restaurant.html">Discover More</a>
+		</div>
+	</div>
+</section>
+            
+        </div>
+    </div>
+
+ 
+	    
+        </div>
+    </li>
+</ul>
+
+                        </li>
+                    
+                
+            
+        </ul>
+
+        <ul class="nav navbar-nav d-none d-lxl-flex" role="menu">
+            
+                
+                    
+                        <li class="nav-item no-sub-category" role="menuitem">
+                            <a href="https://www.penfolds.cn/zh-cn/occasions/gift-guide.html" id="x-gift-guide" role="button" class="nav-link">Copy of 关于PENFOLDS</a>
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item" role="menuitem">
+                            <a id="wines"
+                                class="nav-link clickable" data-target="mega-menu-wines"
+                                 href="https://www.penfolds.cn/zh-cn/wines" 
+                            >
+                                葡萄酒
+                                <i class="view-more"></i>
+                            </a>
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item" role="menuitem">
+                            <a id="x-story"
+                                class="nav-link clickable" data-target="mega-menu-x-story"
+                                 href="https://www.penfolds.cn/zh-cn/about-us.html" 
+                            >
+                                关于PENFOLDS
+                                <i class="view-more"></i>
+                            </a>
+                        </li>
+                    
+                
+                    
+                        <li class="nav-item" role="menuitem">
+                            <a id="x-experiences"
+                                class="nav-link clickable" data-target="mega-menu-x-experiences"
+                                 href="https://www.penfolds.cn/zh-cn/experiences.html" 
+                            >
+                                参观PENFOLDS
+                                <i class="view-more"></i>
+                            </a>
+                        </li>
+                    
+                
+            
+        </ul>
+
+        <div class="megamenu-wrapper">
+
+            <div class="container megamenu-container">
+                <ul class="mega-menu-subcategories-list">
+                    
+                        
+                            <li id="mega-menu-x-gift-guide" role="menuitem">
+                                <a href="https://www.penfolds.cn/zh-cn/occasions/gift-guide.html" id="x-gift-guide" role="button" class="nav-link">Copy of 关于PENFOLDS</a>
+                            </li>
+                        
+                    
+                        
+                            <li id="mega-menu-wines" role="menuitem" class="">
+                                <div class="megamenu-panel">    
+                                    
+                                    <div class="subcategories-wrapper">
+
+    <ul class="first-level-categories">
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/penfolds-wines.html" id="all-wines" class="mega-menu-subcategory-title">All Wines</a>
+                </li>
+            
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/wines/penfolds-collection-2025" id="x-new-collection" class="mega-menu-subcategory-title">New Collection</a>
+                </li>
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="ranges" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/wines/ranges.html" 
+                    >按系列搜索</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/penfolds-collection-2025" id="x-the-penfolds-collection" role="button" class="">The Penfolds Collection</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/one.html" id="xx-one" role="button" class="">ONE by Penfolds</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/maxs" id="maxs" role="button" class="">Max&rsquo;s麦克斯系列</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/ranges/koonunga-hill" id="koonunga-hill" role="button" class="">蔻兰山</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/ranges/cellar-reserve" id="cellar-reserve" role="button" class="">酒窖珍藏系列</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/limited-editions" id="limited-editions" role="button" class="">限量版</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="type" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/wines/wine-type.html" 
+                    >Wine Type</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/red-wine" id="x-red-wine" role="button" class="">Red Wine</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/white-wine" id="x-white-wine" role="button" class="">White Wine</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/champagne" id="x-champagne" role="button" class="">Champagne</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals/fortifieds" id="x-fortified" role="button" class="">Fortified</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="varietals" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/wines/varietals.html" 
+                    >按葡萄品种搜索</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/varietals/cabernet-sauvignon" id="cabernet-sauvignon" role="button" class="">赤霞珠</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/varietals/chardonnay" id="chardonnay" role="button" class="">霞多丽</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/varietals/shiraz" id="shiraz" role="button" class="">设拉子</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/varietals/multi-varietal-blends" id="multi-varietal-blends" role="button" class="">跨葡萄品种混酿</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/varietals.html" id="xx-see-all-varietals" role="button" class="">See All</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="regions" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/wines/regions.html" 
+                    >按产区搜索</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/australian" id="x-australia" role="button" class="">Australia</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/chinese" id="x-china" role="button" class="">China</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/french" id="x-french" role="button" class="">France</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/ranges/californian" id="x-united-states" role="button" class="">United States</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="occasions" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/wines/occasions.html" 
+                    >按场景搜索</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/occasions/gifting" id="gifting" role="button" class="">Gifting</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="/zh-cn/wines/occasions/lunar-new-year" id="lunar-new-year" role="button" class="">农历新年</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/wines/tasting-notes.html" id="x-tasting-notes" class="mega-menu-subcategory-title">品鉴笔记</a>
+                </li>
+            
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/wine-advice.html" id="xx-wine-advice" class="mega-menu-subcategory-title">Wine Advice</a>
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+
+	 
+
+
+	
+    <div class="mega-menu-content">
+        
+        <div class="html-slot-container"
+            data-item-id="mega-menu-slot"
+            data-item-type="slot"
+            data-item-configuration-id="null"
+            data-item-context="global"
+            data-item-context-id="">
+            
+                <section>
+	<div class="p-0">
+		<img class="mw-100" src="https://www.penfolds.cn/on/demandware.static/-/Sites/default/dwd80af104/Penfolds/1-Images/Landscape/470x330-mega-menu/470x330-gift-guide-2025.jpg">
+		<p class="mb-0 mt-1">GIVE THE GIFT OF PENFOLDS</p>
+		<a href="https://www.penfolds.cn/zh-cn/occasions/gift-guide.html">Explore Our Gift Guide</a>
+	</div>
+</section>
+            
+        </div>
+    </div>
+
+ 
+	
+
+                                </div>
+                            </li>
+                        
+                    
+                        
+                            <li id="mega-menu-x-story" role="menuitem" class="">
+                                <div class="megamenu-panel">    
+                                    
+                                    <div class="subcategories-wrapper">
+
+    <ul class="first-level-categories">
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-about" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/about-us.html" 
+                    >About Penfolds</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/our-history.html" id="x-our-history" role="button" class="">Penfolds奔富历史</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/our-founders.html" id="x-our-founders" role="button" class="">Founders</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/the-story-of-grange.html" id="x-the-story-of-grange" role="button" class="">葛兰许的故事</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/awards-accolades.html" id="x-awards-accolades" role="button" class="">得分与奖项</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/wines/historic-releases" id="x-historic-releases" role="button" class="">Historic Releases</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-winemaking" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/about-us/winemaking.html" 
+                    >酿酒工艺</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/winemaking/our-winemakers.html" id="x-winemakers" role="button" class="">我们的酿酒师</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/winemaking/our-vineyards.html" id="x-vineyards" role="button" class="">Penfolds的葡萄园</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-sustainability" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/about-us/sustainability.html" 
+                    >Evermore</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/sustainability/sustainability-news.html" id="x-evermore-news" role="button" class="">Evermore News</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-collaborations" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/about-us/news-collaborations.html" 
+                    >合作</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/lunar-new-year.html" id="x-lny" role="button" class="">Lunar New Year</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/holiday-2025.html" id="x-2025-holiday" role="button" class="">From Penfolds to the World</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/penfolds-collection-2025.html" id="x-2025-collection" role="button" class="">2025 Collection</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-penfolds/news/lachapelle.html" id="x-lachapelle" role="button" class="">Grange La Chapelle</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/about-us/collaborations.html" id="x-see-all-collaborations" role="button" class="">See All</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+    </ul>
+</div>
+
+
+
+	 
+
+	
+
+                                </div>
+                            </li>
+                        
+                    
+                        
+                            <li id="mega-menu-x-experiences" role="menuitem" class="">
+                                <div class="megamenu-panel">    
+                                    
+                                    <div class="subcategories-wrapper">
+
+    <ul class="first-level-categories">
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-cellardoors" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-cellar-door.html" 
+                    >Cellar Door</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-cellar-door.html" id="x-magill-estate-cellar-door" role="button" class="">玛格尔庄园零售店</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="mega-menu-subcategory">
+                    <a id="x-restaurants" class="mega-menu-subcategory-title"
+                     href="https://www.penfolds.cn/zh-cn/experiences/dining.html" 
+                    >Dining</a>
+                    
+                    <ul class="second-level-categories" role="menu" aria-hidden="true">
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-kitchen.html" id="x-magill-estate-kitchen" role="button" class="">玛格尔庄园咖啡店</a>
+        </li>
+    
+        <li class="second-level-category" role="menuitem">
+            <a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-restaurant.html" id="x-magill-estate-restaurant" role="button" class="">玛格尔庄园餐厅</a>
+        </li>
+    
+</ul>
+
+                </li>
+
+            
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/experiences/events/upcoming-events.html" id="x-upcoming-events" class="mega-menu-subcategory-title">未来活动</a>
+                </li>
+            
+        
+            
+                <li class="no-sub-category">
+                    <a href="https://www.penfolds.cn/zh-cn/experiences/events/recorking-clinics.html" id="x-recorking-clinics" class="mega-menu-subcategory-title">换塞诊所</a>
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+
+	 
+
+
+	
+    <div class="mega-menu-content">
+        
+        <div class="html-slot-container"
+            data-item-id="mega-menu-slot"
+            data-item-type="slot"
+            data-item-configuration-id="null"
+            data-item-context="global"
+            data-item-context-id="">
+            
+                <section>
+	<div class="megaMenu-container">
+		<div class="cards p-0">
+			<img src="https://www.penfolds.cn/on/demandware.static/-/Sites/default/dw2e578327/Penfolds/1-Images/Landscape/400x200-Magill-Estate-Restaurant-Dish.png" />
+			<p class="mb-0 mt-2">Magill Estate Restaurant</p>
+			<a href="https://www.penfolds.cn/zh-cn/experiences/magill-estate-restaurant.html">Discover More</a>
+		</div>
+	</div>
+</section>
+            
+        </div>
+    </div>
+
+ 
+	
+
+                                </div>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+                                    </div>
+                                    <div class="row mobile-footer-navigation">
+                                        
+
+<ul class="mobile-user-navigation">
+    
+    
+        <li class="mobile-change-language dropdown" data-url="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Page-SetLocale">
+            <div class="dropdown-toggle language-title" data-toggle="dropdown">
+                <i class="icon icon-language-mobile"></i>
+                <label>
+                    语言
+                </label>
+            </div>
+            <ul class="dropdown-menu" role="menuitem" aria-hidden="true">
+                
+                    <li class="dropdown-item">
+                        <a href="#" class="language-item" data-locale="zh_CN" data-currencyCode="AUD"
+                        data-update-agegate-cookie-url="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/AgeGate-UpdateAgeGateCookie?isoLocale=zh_CN&amp;multiLocale=true">
+                            简体中文
+                        </a>
+                    </li>
+                
+                    <li class="dropdown-item">
+                        <a href="#" class="language-item" data-locale="en_CN" data-currencyCode="AUD"
+                        data-update-agegate-cookie-url="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/AgeGate-UpdateAgeGateCookie?isoLocale=en_CN&amp;multiLocale=true">
+                            English
+                        </a>
+                    </li>
+                
+            </ul>
+        </li>
+    
+    <li>
+        <a
+            class="change-region"
+            data-toggle=""
+            data-target="#changeRegionModal"
+            href="https://www.penfolds.cn/zh-cn/location-reset">
+            <i class="icon icon-header-region-selection-active-dark"></i>地区
+        </a>
+    </li>
+</ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pull-right minicart-hover-area">
+                            <div class="search search-flyout non-transactional" id="searchShowModalBtn" data-toggle="m" data-target="#miniCartShowModal">
+                                <i class="icon icon-search-white"></i>
+                                <i class="icon icon-search-dark"></i>
+                            </div>
+                            
+                        </div>
+                        <span class="fa fa-search shrinked-search-icon" style="display: none"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<div class="post-header-container"></div>
+
+<div class="overlay">
+
+    
+
+
+
+
+
+    <div class="page-container check-wine-wrapper" id="main">
+        <div class="container">
+            <input type="hidden" id="geo-data" data-latitude data-longitude />
+            <form action="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/BrandProtection-Authenticate"
+                class="checkwine" method="post" name="check_wine_form"
+                autocomplete="off" novalidate>
+                <input type="hidden" name="serial-code" id="serial-code" value="B2MBCZ1C" />
+                <div class="brand-protection-image-wrapper">
+                    <img src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw4e9fe508/images/checkWine/F19label.png" class="d-block img-fluid" alt="image"/>
+                </div>
+
+                <div class="brand-protection-content-wrapper">
+                    
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="check-wine-content"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="ba5f16b6da36ee1aae49b0f24b" -->
+			<h2 class="check-wine-header">鉴别防伪标识</h2>
+<p class="check-wine-content">
+瓶肩处的防伪标签方便您鉴别手中的Penfolds奔富。请将标签上的四位专属码输入以鉴别真伪。
+</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                    <div class="brand-protection-pin-wrapper">
+                        <div class="number" id="pin-1">
+                            <div  id="v1" class="number-value"></div>
+                            <input  class="number" data-field-index="1" step="1" type="number" min="0" value="" max="9" placeholder="" pattern="[0-9]*"/>
+                        </div>
+                        <div class="number" id="pin-2">
+                            <div id="v2" class="number-value"></div>
+                            <input class="number" data-field-index="2" type="number" min="0" value="" step="9" max="9" placeholder="" pattern="[0-9]*"/>
+                        </div>
+                        <div class="number" id="pin-3">
+                            <div id="v3" class="number-value"></div>
+                            <input class="number" data-field-index="3" type="number" min="0" max="9" placeholder="" value="" pattern="[0-9]*"/>
+                        </div>
+                        <div class="number" id="pin-4">
+                            <div id="v4" class="number-value"></div>
+                            <input class="number" data-field-index="4" type="number" min="0" max="9" placeholder="" value="" pattern="[0-9]*"/>
+                        </div>
+                    </div>
+
+                    <div class="brand-protection-consent-toggle">
+                        <div class="form-group custom-control custom-checkbox custom-checkbox-twe">
+                            <input type="checkbox" class="custom-control-input" id="accept-consent" />
+                            <label class="form-control-label custom-control-label" for="accept-consent"> </label>
+                        </div>
+                        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="brand-protection-consent-label"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="dc643fdb14de05d2930be2e234" -->
+			<style type="text/css">
+	.page-container.check-wine-wrapper {min-height: 750px;min-height: 46.25rem;}
+</style>
+<p>我已阅读并同意 <a target="_blank" href="https://www.penfolds.cn/zh-cn/privacy-policy.html">Penfolds奔富隐私政策</a></p>
+			<!-- END_dwmarker -->
+			
+		
+		
+		
+			
+		</div> <!-- End content-asset -->
+	
+
+
+                    </div>
+
+                    <div class="check-wine-action">
+                        
+                        
+                        
+                        
+                        <!---->
+                        <!---->
+                        <!---->
+                        <div v-show="jis<3" class="error-message">
+                            <div class="invalid-pin-warning">PIN码无效。 请再试一次。</div>
+                            <div v-if="jis==2" class="pin-attempts-left-warning">您还有{{jis}}次尝试s次</div>
+                            <div v-else class="pin-attempts-left-warning">您还有{{jis}}次尝试次</div>
+                        </div>
+                        <!---->
+                        <!---->
+                        <!---->
+                        
+                        
+                        <div class="error-message d-none">
+                            <div class="invalid-pin-warning">检查您的酒</div>
+                            <div class="pin-attempts-left-warning">检查您的酒</div>
+                        </div>
+                        <button class="btn btn-primary-action check-wine-button" @click="commit()" data-action="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/BrandProtection-Authenticate"
+                            alternate-label="请耐心等待" disabled>
+                            检查您的酒
+                        </button>
+                        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="identify-consent"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="55331c33c62244374a78179cb5" -->
+			<div class="check-wine-help-text">如果您有任何疑问的，请拨打 +86 21 23130300</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<footer>
+    <div class="newsletter-subscription">
+        
+    </div>
+    <div class="container">
+        <hr class="d-none hidden-xs-down" />
+        <div class="footer-container row">
+            <div class="footer-item col-lg-2 collapsible-md">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-shop"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="1a872b126e571f4d30742b2c27" -->
+			<h3><a class="title" href="#">Wines<i class="icon icon-arrow-down-line-light-nobg"></i></a></h3>
+<ul class="menu-footer content">
+    <li><a href="https://www.penfolds.cn/zh-cn/wines" title="葡萄酒">葡萄酒</a></li>
+    <li><a href="https://www.penfolds.cn/zh-cn/wines/tasting-notes.html" title="品鉴笔记">品鉴笔记</a></li>
+    <li><a href="https://www.penfolds.cn/zh-cn/wine-advice.html" title="葡萄酒咨讯">葡萄酒咨讯</a></li>
+</ul>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+            <div class="footer-item col-lg-2 collapsible-md">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-information"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="9a67856058362158dd76602fd6" -->
+			<div class="h3"><a class="title" href="#">Our Story<i class="icon icon-arrow-down-line-light-nobg"></i></a></div>
+
+<ul class="menu-footer content">
+	<li><a href="https://www.penfolds.cn/zh-cn/about-us/our-history.html" title="Go to History">History</a></li>
+	<li><a href="https://www.penfolds.cn/zh-cn/about-us/awards-accolades.html" title="Go to Winemaking">Winemaking</a></li>
+	<li><a href="https://www.penfolds.cn/zh-cn/about-us/collaborations.html" title="Go to Collaborations">Collaborations</a></li>
+	<li><a href="https://www.penfolds.cn/zh-cn/news.html" title="Go to News">News</a></li>
+	<li><a href="https://www.penfolds.cn/zh-cn/about-us/sustainability.html" title="Go to Sustainability">Evermore</a></li>
+<li><a href="https://www.penfolds.cn/zh-cn/about-us/careers.html" title="Go to Careers">Careers</a></li>
+</ul>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+            <div class="footer-item col-lg-2 collapsible-md">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-legal"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="a52be81c1c2415a7fd991eaa72" -->
+			<div class="h3"><a class="title" href="#">Experiences<i class="icon icon-arrow-down-line-light-nobg"></i></a></div>
+<ul class="menu-footer content">
+    <li><a href="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Page-Show?cid=visit" title="参观 ">参观 </a></li>
+    <li><a href="https://www.penfolds.cn/zh-cn/experiences/events/recorking-clinics.html" title="换塞诊所">换塞诊所</a></li>
+    <li><a href="https://www.penfolds.cn/zh-cn/experiences/events/upcoming-events.html" title="未来活动">未来活动</a></li>
+</ul>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+            <div class="footer-item col-lg-2 collapsible-md">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-account"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="fe613446687e753182bbb41a9b" -->
+			<div class="h3"><a class="title" href="#">Information<i class="icon icon-arrow-down-line-light-nobg"></i></a></div>
+<ul class="menu-footer content">
+    <li><a href="https://www.penfolds.cn/zh-cn/contact.html" title="联系方式和常见问题">联系方式和常见问题</a></li>
+ <li><a href="https://www.penfolds.cn/zh-cn/terms-and-conditions.html" title="网站条款与条件">网站条款与条件</a></li>
+ <li><a href="https://www.penfolds.cn/zh-cn/privacy-policy.html" title="隐私政策">隐私政策</a></li>
+ <li><a href="https://www.penfolds.cn/zh-cn/consent-preference.html" title="Go to Cookie Preferences">Cookie Preferences</a></li>
+</ul>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+            <div class="footer-item col-lg-4 collapsible-md">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-contact-us"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="0445ae1da76cfb7a4cd3d7c677" -->
+			<div class="h3">
+    <a href="https://www.penfolds.cn/zh-cn/contact.html" class="title">Contact Penfolds<i class="icon icon-arrow-down-line-light-nobg"></i></a>
+</div>
+<div class="content text-center text-lg-left">
+    <p>Magill Estate, 78 Penfold Rd, Magill SA 5072<br><span class="footer-phone-no">Cellar Door Inquiries: <a href="tel:+61883015569">+61 (08) 8301 5569</a><br>General Inquiries (toll free): <a href="tel:1300095930">1300 095 930</a></span></p>
+</div>
+<ul class="credit-cards">
+    <li>
+        <img src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dwfc36c7a6/images/footer/icon-payment-master-card.svg" alt="MasterCard" />
+    </li>
+    <li>
+        <img src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw4cfe235c/images/footer/icon-payment-visa.svg" alt="Visa" />
+    </li>
+    <li>
+        <img src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw2f1d4727/images/footer/icon-payment-paypal.svg" alt="PayPal" />
+    </li>
+</ul>
+
+<style type="text/css">
+    @media (max-width: 991.98px){
+        .container .footer-container p a {
+            color: #4d4d4d;
+        }
+    }
+</style>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+        </div>
+        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-social"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="4390182587891c8c0db16e6954" -->
+			<style type="text/css">.social-icon-hover {
+        display:none;
+        }
+        .social-icon-wrapper:hover .social-icon {
+        display:none;
+        }
+        .social-icon-wrapper:hover .social-icon-hover {
+        display:block;
+        }
+.slide-accordion-title h3 {display:none}
+</style>
+<div class="footer-social">
+<div class="row">
+<div class="col-12">
+<h2>Connect with us</h2>
+</div>
+
+<div class="col-12">
+<ul>
+	<li><a class="social-icon-wrapper" href="https://www.facebook.com/penfolds" target="_blank" title="Facebook"><img alt="Facebook" class="social-icon" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dwa61f02a0/images/footer/icon-social-circle-facebook.svg" /> <img alt="Facebook" class="social-icon-hover" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw26f7ab16/images/footer/icon-social-circle-facebook-hover.svg" /> </a></li>
+	<li><a class="social-icon-wrapper" href="http://instagram.com/penfolds" target="_blank" title="Instagram"><img alt="Instagram" class="social-icon" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dwfe02146b/images/footer/icon-social-circle-instagram.svg" /> <img alt="Instagram" class="social-icon-hover" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw27524399/images/footer/icon-social-circle-instagram-hover.svg" /> </a></li>
+	<li><a class="social-icon-wrapper" href="https://twitter.com/penfolds" target="_blank" title="Twitter"><img alt="Twitter" class="social-icon" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dwe26b97b3/images/footer/icon-social-circle-twitter.svg" /> <img alt="Twitter" class="social-icon-hover" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw87dd6c53/images/footer/icon-social-circle-twitter-hover.svg" /> </a></li>
+	<li><a class="social-icon-wrapper" href="https://www.youtube.com/user/PenfoldsEST1844" target="_blank" title="YouTube"><img alt="YouTube" class="social-icon" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw3141e3b7/images/footer/icon-social-circle-youtube.svg" /> <img alt="YouTube" class="social-icon-hover" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw5bd135c4/images/footer/icon-social-circle-youtube-hover.svg" /> </a></li>
+	<li><a class="social-icon-wrapper" href="http://www.weibo.com/penfoldschina" target="_blank" title="Weibo"><img alt="Weibo" class="social-icon" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dwd0501482/images/footer/icon-social-circle-weibo.svg" /> <img alt="Weibo" class="social-icon-hover" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw86521cc9/images/footer/icon-social-circle-weibo-hover.svg" title="" /> </a></li>
+</ul>
+</div>
+</div>
+</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+    </div>
+    <div class="footer-drink-wise">
+        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="footer-drink-wise"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="281395358fc9059fb4c1348c60" -->
+			<section>
+	<div class="row no-gutters">
+		<div class="container">
+			<div class="d-lg-flex justify-content-between">
+				<div class="col-12 col-lg-10">
+					<p><small><strong>Penfolds Wines 2024 &copy;. All rights reserved.</strong></small></p>
+				</div>
+
+				<div class="col-12 col-lg-2 p-lg-0 pt-2 text-center"><a href="#" target="_blank"><img alt="Enjoy Responsibily" class="img-fluid" src="https://www.penfolds.cn/on/demandware.static/-/Library-Sites-PenfoldsSharedLibrary/default/dw8f0ac074/images/footer/Enjoy-Responsibly-Light.png" title="Enjoy Responsibly" /></a></div>
+			</div>
+		</div>
+	</div>
+</section>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+    </div>
+
+     
+
+
+<!-- Tealium (Begin) -->
+<script type="text/javascript">
+    var utag_data = {
+  "page_name": "Sites-PenfoldsROW-Site",
+  "page_type": "content",
+  "site_id": "PenfoldsROW",
+  "page_context_type": "",
+  "page_context_title": "",
+  "user_anonymous": "true",
+  "user_authenticated": "false",
+  "user_registered": "false",
+  "customer_id": "abrYDdEcuT8by7m60wl3phGmIc",
+  "customer_contact_id": "abrYDdEcuT8by7m60wl3phGmIc"
+};
+</script>
+
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/twe/bronze/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=1;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+<!-- Tealium (End) -->
+
+
+    
+        
+            <style type='text/css'>
+                @font-face {
+                    font-family: 'Salesforce Sans';
+                    src: url('/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/fonts/SnapInChat/SalesforceSans-Regular.woff') format('woff'),
+                         url('/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/fonts/SnapInChat/SalesforceSans-Regular.ttf') format('truetype'),
+                         url('/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/fonts/SnapInChat/SalesforceSans-Regular.svg') format('svg');
+                }
+            </style>
+            <style>.megamenu-wrapper .mega-menu-subcategories-list .second-level-category a {font-weight: normal !important;}  .slide-accordion-title h3 {display:none} .product-tag-container .product-tag {color: #f1f1f1}</style>
+        
+    
+    
+<div class="cookie-banner-footer d-none" data-edit-mode="false">
+    <div class="cookie-consent-wrapper" role="dialog">
+        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="cookie-consent-info"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="6e546cf8df708076c95cb932fd" -->
+			<div class="cc-banner row">
+        <div class="cc-content col-12 col-lg-7 col-xl-8">
+        <p>We use cookies to help personalize content , tailor and measure ads and provide a better browsing experience. Read our <a href="https://www.penfolds.cn/zh-cn/privacy-policy.html#a004">Cookie Policy</a> to learn more or go to  <u><a href="https://www.penfolds.cn/zh-cn/consent-preference.html">Cookie Preferences</a></u> page to manage your settings. We have recently updated our <u><a href="https://www.penfolds.cn/zh-cn/privacy-policy.html">Privacy Policy.</a></u>To review the latest version please click <a href="https://www.penfolds.cn/zh-cn/privacy-policy.html">here.</a></p></div>
+        <div class="cc-button col-12 col-lg-5 col-xl-4">
+        <button class="btn btn-block btn-primary-action btn-accept-cookies">Accept All Cookies </button>
+        <button class="btn btn-block btn-outline-primary btn-preference">Manage Preferences </button>
+        <button class="btn btn-block btn-outline-primary btn-save-cookies d-none">Save Preferences </button>
+        </div>
+        <div class="col-12 col-lg-10 col-xl-8">
+        <div class="row manage-preference d-none">
+        <div class="col-12 col-lg-3 ">
+        <div class="row">
+        <div class="custom-checkbox custom-checkbox-toggle col-1">
+        <input type="checkbox" class="custom-control-input" id="c1" checked="checked" disabled >
+        <label class="form-control-label custom-control-label" for="c1"> </label>
+        </div>
+        <div class="col-10 cc-manage-preference">Essential (Required)</div>
+        </div>
+        </div>
+        <div class="col-12 col-lg-3 ">
+        <div class="row">
+        <div class="custom-checkbox custom-checkbox-toggle col-1">
+        <input type="checkbox" class="custom-control-input" id="c2" >
+        <label class="form-control-label custom-control-label" for="c2"> </label>
+        </div>
+        <div class="col-10 cc-manage-preference">Performance</div>
+        </div>
+        </div>
+        <div class="col-12 col-lg-3 ">
+        <div class="row">
+        <div class="custom-checkbox custom-checkbox-toggle col-1">
+        <input type="checkbox" class="custom-control-input" id="c3" >
+        <label class="form-control-label custom-control-label" for="c3"> </label>
+        </div>
+        <div class="col-10 cc-manage-preference">Functionality</div>
+        </div>
+        </div>
+        <div class="col-12 col-lg-3 ">
+        <div class="row">
+        <div class="custom-checkbox custom-checkbox-toggle col-1">
+        <input type="checkbox" class="custom-control-input" id="c4" >
+        <label class="form-control-label custom-control-label" for="c4"> </label>
+        </div>
+        <div class="col-10 cc-manage-preference">Advertising</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+   </div>
+</div>
+<div class="no-click-overlay footer d-none"></div>
+ <a id="agegatelink" href="https://www.penfolds.cn/zh-cn/location-reset" class="d-none">    </a>
+ <input id="agegatecookie" type="hidden" value="tweAGRememberMePenfoldsROW">
+
+</footer>
+
+<div
+    class="d-none"
+    id="content-video-player-data"
+    data-playerId='f3e5cd24f0164165a1eb8718045d86df'
+    data-playerVersion='core'
+></div>
+</div>
+<div class="error-messaging"></div>
+<div class="modal-background"></div>
+
+
+
+<!-- /common/scripts.isml -->
+<script defer type="text/javascript" src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/main.js"></script>
+<!--<script defer src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/thirdPartyLibs/jQueryUI/jquery-ui.min.js"></script>-->
+<!--<script defer src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/thirdPartyLibs/jQueryUI/jquery.ui.touch-punch.min.js"></script>-->
+<!--<script defer src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/thirdPartyLibs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>-->
+
+
+    <!--<script defer src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/tealconsent.js"></script>-->
+
+    <!--<script defer src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/js/login.js"></script>-->
+
+<script>
+    window.blankdocumentsextensions = "pdf";
+</script>
+
+
+
+
+
+
+<wainclude url="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/ConsentTracking-Check">
+
+
+
+
+
+
+
+
+<div id="loginShowModal" class="" tabindex="-1" data-remove="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Wineplan-RemoveProductsFromCart">
+    <div class="m-dialog">
+        <div class="m-content">
+            <div class="m-header">
+                <button type="button" class="close pull-left" data-dismiss="m" data-target="#loginShowModal">
+                    &times;
+                </button>
+            </div>
+            <div class="m-body login-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 content">
+
+                            <div class="content-auto login-form-nav">
+                                <div class="tab-content">
+                                    
+                                    
+                                    <div class="tab-pane active" id="login-tab" role="tabpanel">
+                                        <div class="login-header">
+                                        
+                                            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="login-header"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="9722c602c8e0378bab2d179f6d" -->
+			<div class="h2">LOG IN OR REGISTER</div>
+<div class="h2">Member Log in</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                        
+                                        </div>
+                                        <div class="login-or-register-header">
+                                            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="login-or-register-header"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="7cbdab0057a26eb371d60d36f6" -->
+			<div class="h1">Log In or Register to Proceed</div>
+        <p>In order to subscribe to a Penfolds Wine Plan, you first need to log in, or register for a new account with Penfolds. Please enter your details below and continue to your Wine Plan.</p>
+        <div class="h2">Member Log in</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                        </div>
+                                        
+
+
+<form action="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Account-Login" class="login" method="POST" name="login-form">
+
+    
+
+    <div class="form-group required custom-input">
+        <label class="form-control-label" for="login-form-email">
+            电子邮箱地址
+        </label>
+        <input
+            type="email"
+            readonly
+            id="login-form-email"
+            class="form-control"
+            placeholder="电子邮箱地址"
+            name="loginEmail"
+            value=""
+            autocomplete="off" />
+        <div class="invalid-feedback"></div>
+    </div>
+
+    <div class="form-group custom-input required">
+        <label class="form-control-label" for="login-form-password">
+            密码
+        </label>
+        <button type="button" id="eye-show-password" class="icon icon-password-toggle-default-nobg eye-show-password"></button>
+        <input
+            type="password"
+            readonly
+            id="login-form-password"
+            placeholder="密码"
+            class="form-control"
+            name="loginPassword"
+            autocomplete="off" />
+        <div class="invalid-feedback"></div>
+    </div>
+
+    <div class="clearfix">
+        <div class="form-group custom-control custom-checkbox custom-checkbox-twe pull-left remember-me">
+            <input type="checkbox" class="custom-control-input" id="rememberMe" name="loginRememberMe" value="true"
+                 />
+            <label class="custom-control-label" for="rememberMe">
+                记住我
+            </label>
+        </div>
+
+        
+            <div class="pull-right forgot-password text-right">
+                <a
+                    id="password-reset"
+                    title="忘记密码？"
+                    data-toggle="modal"
+                    href="/zh-cn/reset-password-request"
+                    data-target="#requestPasswordResetModal">
+                    忘记密码？
+                </a>
+            </div>
+        
+    </div>
+
+    
+        <button type="submit" class="btn btn-block btn-ecommerce">
+            登录
+        </button>
+    
+
+    <input type="hidden" name="csrf_token" value="nh2B6fvSDwQnpNFSr4rc7rsp3pKc-6T_lkrSs1fBCe2M3jsetQBoUo8GIPc8r6Y0gs09ex6qkUnZshCr98r3xCTby6-mVPZWIAjhi-llTiO7laA97aW7wyBZ73HKjOqNV_nqUOHNGnddzW71o7DEDfK4d1mGCrixJyzGQ0d74QK9JEjfBbM="/>
+</form>
+
+                                        <div class="login-oauth-wrapper mb-4">
+                                            <div class="d-none">
+                                                <p class="or">Or</p>
+                                                <form action="" class="login-oauth" method="post" name="login-oauth-form">
+    <div class="form-group">
+        <a href="https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Login-OAuthLogin?oauthProvider=Facebook&amp;oauthLoginTargetEndPoint=" class="btn btn-block btn-ecommerce-facebook oauth-facebook"
+           role="button" aria-pressed="true">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                Continue with Facebook
+        </a>
+    </div>
+</form>
+
+                                            </div>
+                                        </div>
+                                        
+                                            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="login-new-customers-brief"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="0ee8f82ab0153422590eaaf1b7" -->
+			<div class="h2">Create An Online Account</div>
+<p>Become a Penfolds Member to receive great benefits, including complimentary shipping and exclusive offers.</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                            <button class="btn btn-block btn-outline-white-primary" id="sign-up">
+                                                注册
+                                            </button>
+                                        
+                                    </div>
+
+                                    <div class="tab-pane register" id="register-tab" role="tabpanel">
+                                    
+                                        
+
+
+                                        
+	 
+
+	
+                                    
+                                        
+
+
+
+
+
+
+
+<form
+    action="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Account-SubmitRegistration"
+    class="registration"
+    method="post"
+    name="dwfrm_registration_profile"
+    autocomplete="off"
+    novalidate>
+    <span class="d-none js-register-date" data-age-limit="18.0"></span>
+    <fieldset class="register-form-email js-registration js-registration-email" data-validation-url="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/Account-SubmitNewCustomerEmail" data-registration-stage="email">
+
+        
+        
+        
+        <div class="container-fluid pl-0 pr-0">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="form-group custom-input required">
+                        <label class="form-control-label" for="registration-form-fname">
+                            名字
+                        </label>
+                        <input
+                            type="text"
+                            readonly
+                            class="form-control"
+                            id="registration-form-fname"
+                            placeholder="名字"
+                            name="dwfrm_registration_profile_customer_firstname" required value="" maxLength="50" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*){0,50}$">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="form-group custom-input required">
+                        <label class="form-control-label" for="registration-form-lname">
+                            姓氏
+                        </label>
+                        <input
+                            type="text"
+                            readonly
+                            class="form-control"
+                            id="registration-form-lname"
+                            placeholder="姓氏"
+                            name="dwfrm_registration_profile_customer_lastname" required value="" maxLength="50" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*){0,50}$">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+            <div class="container-fluid pl-0 pr-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group custom-input required">
+                            <label class="form-control-label" for="registration-form-email">
+                                电子邮件地址
+                            </label>
+                            <input
+                                type="text"
+                                readonly
+                                class="form-control"
+                                id="registration-form-email"
+                                placeholder="邮件"
+                                name="dwfrm_registration_profile_customer_email" required value="" maxLength="50" pattern="^[\w.'`%+-]+@[\w.-]+\.[\w]{2,20}$">
+                            <div class="invalid-feedback"></div>
+                            
+                            <div class="registration-tab-loyalty-container">
+                                我们发现您已有奔富账户，请
+                                <a href="/zh-cn/reset-password-request" id="loyalty-password-reset">重设密码</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+
+    </fieldset>
+
+    <fieldset class="register-form-date js-registration js-registration-date" data-registration-stage="date" style="display: none;">
+        <div class="container-fluid pl-0 pr-0">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group custom-input required">
+                        <label class="form-control-label" for="registration-form-birthday">
+                            出生日期
+                        </label>
+                         <input
+                            type="text"
+                            inputmode="numeric"
+                            class="form-control"
+                            id="registration-form-birthday"
+                            placeholder="出生日期"
+                            data-missing-error="此处必填"
+                            data-pattern-mismatch="请输入有效的日期"
+                            name="dwfrm_registration_birthday" required value="" maxLength="10" pattern="^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$">
+                        <div class="invalid-feedback invalid-DOB"></div>
+                        <div class="DOB-placeholder">日日/月月/年年年年</div>
+                    </div>
+                </div>
+                
+                    <div class="col-6">
+                        <div class="form-group custom-input
+                            required
+                            dwfrm_registration_postCode">
+                            <label class="form-control-label" for="postCode">
+                            邮编
+                                </label>
+                            <input
+                                type="text"
+                                readonly
+                                class="form-control"
+                                id="postCode"
+                                placeholder="邮编"
+                                name="dwfrm_registration_postCode" required value="" maxLength="4" minLength="4" pattern="^\d{4}$"
+                                data-missing-error="此处必填"
+                                data-pattern-mismatch="请输入有效的邮编">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group custom-input ">
+                        <label class="form-control-label" for="registration-form-phone">
+                            电话
+                        </label>
+                        <input
+                            type="text"
+                            readonly
+                            class="form-control"
+                            id="registration-form-phone"
+                            placeholder="电话"
+                            data-missing-error="此处必填"
+                            data-pattern-mismatch="Please enter a valid phone number"
+                            name="dwfrm_registration_phone" value="" maxLength="20" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="register-form-password js-registration js-registration-password" data-registration-stage="password" style="display: none;">
+        <div class="container-fluid pl-0 pr-0">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group custom-input required">
+                        <label class="form-control-label" for="registration-form-password">
+                            密码
+                        </label>
+                        <button type="button" id="eye-show-password" class="icon icon-password-toggle-default-nobg eye-show-password"></button>
+                        <input
+                            type="password"
+                            readonly
+                            class="form-control"
+                            id="registration-form-password"
+                            data-missing-error="此处必填"
+                            data-range-error="此字段必须由8~225个字符组成"
+                            placeholder="密码"
+                            autocomplete="off"
+                            name="dwfrm_registration_profile_login_password" required value="" maxLength="255" minLength="8">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </fieldset>
+    <div class="row collection-statement site-PenfoldsROW">
+        <div class="col collection-statement-1">
+            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="registration-collection-statement-1"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="e6dedaf3bf9b63e3b9037d7171" -->
+			<style>.collection-statement-label {margin-top: -25px;}</style>
+<p class="collection-statement-label">By providing your details, you agree to the collection and use of your personal information in accordance with our <a href="https://www.penfolds.cn/zh-cn/privacy-policy.html" target="_blank" title="Go to Privacy Policy">Privacy Policy.</a></p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+        </div>
+        <div class="col collection-statement-2">
+            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="registration-collection-statement-2"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="ee0a3fa8307433cdbb1929e6a5" -->
+			<style>.collection-statement-label {margin-top: -25px;}</style>
+<p class="collection-statement-label">By providing your details, you agree to join the Penfolds Loyalty Program <a href="https://www.penfolds.cn/zh-cn/searchable/members-terms-conditions.html" title="Loyalty Terms and Conditions" target="_blank" style="text-decoration:underline;">(T&Cs here)</a> and receive marketing updates from Penfolds. You also agree to the collection and use of your personal information in accordance with our <a href="https://www.penfolds.cn/zh-cn/privacy-policy.html" target="_blank" title="Go to Privacy Policy">Privacy Policy.</a></p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+        </div>
+    </div>
+    <input id="registerCSRF" type="hidden" name="csrf_token" value="nh2B6fvSDwQnpNFSr4rc7rsp3pKc-6T_lkrSs1fBCe2M3jsetQBoUo8GIPc8r6Y0gs09ex6qkUnZshCr98r3xCTby6-mVPZWIAjhi-llTiO7laA97aW7wyBZ73HKjOqNV_nqUOHNGnddzW71o7DEDfK4d1mGCrixJyzGQ0d74QK9JEjfBbM="/>
+    <div class="row row-next-step-button">
+        <div class="col next-step-button">
+            <div>
+                <button type="button" class="btn btn-block btn-ecommerce js-registration js-registration-email">
+                    下一页
+                </button>
+                <button type="button" class="btn btn-block btn-ecommerce js-registration js-registration-date" style="display: none;">
+                    下一页
+                </button>
+                <button type="button" class="btn btn-block btn-ecommerce js-registration js-registration-password">
+                    <span class="login-sign-up">
+                        注册
+                    </span>
+                    <span class="login-sign-up-wineplan">
+                        注册并结算
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col password-brief">
+            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="register-form-normal-legend-password"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="4dc9ccf1d9175ea6f62e8d7810" -->
+			<p><strong>Please create a strong password with 8 or more mixed case characters and numbers.</strong></p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+        </div>
+    </div>
+
+    <div class="row row-register-step">
+        <div class="col register-step">
+            <div class="register-step-indicator"></div>
+        </div>
+    </div>
+
+    <div class="row row-register-step-back">
+        <div class="col text-center">
+            <a href="javascript:;" class="register-step-back js-registration js-registration-date js-registration-password js-registration-back" style="display: none;">
+                返回
+            </a>
+        </div>
+    </div>
+</form>
+
+
+
+                                        <p class="back-to-login">
+                                            <a id="back-to-login" href="#login-tab" title="回到登录" class="js-registration js-registration-email" style="display: none;">
+                                                回到登录
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div class="tab-pane register" id="register-done-tab" role="tabpanel">
+                                        <div class="container-fluid pl-0 pr-0">
+                                            <div class="row row-heading">
+                                                <div class="col">
+                                                    
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="register-form-legend-done"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="0f5c42764a1932458dd4e08aec" -->
+			<div class="h1">Welcome, <span class="fname">Eroka</span>!</div>
+        <div class="h2">Thank you for creating an account with Penfolds</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col done-button" data-url="">
+                                                    <div>
+                                                        <button type="button" class="btn btn-block btn-ecommerce">
+                                                            完成
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane " id="password-reset-tab" role="tabpanel">
+                                        
+
+
+<form class="reset-password-form" action="/zh-cn/reset-password-request" method="POST" name="email-form" id="email-form">
+    <div class="request-password-body">
+        
+            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="login-request-password-reset-header"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="9c1483cbf111d60f7076351bc1" -->
+			<div class="h3">Forgotten your password?</div>
+        <p>Please enter your account email address below to reset your password.</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+        
+        <div class="form-group custom-input required">
+            <label class="form-control-label" for="reset-password-email">
+                电子邮箱地址
+            </label>
+            <input
+                id="reset-password-email"
+                type="email"
+                class="form-control"
+                name="loginEmail"
+                aria-describedby="emailHelp"
+                
+                placeholder="电子邮箱地址"/>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+    <div class="send-email-btn">
+        <button
+            type="submit"
+            id="submitEmailButton"
+            class="btn btn-block btn-ecommerce">
+            
+                重置密码
+            
+        </button>
+    </div>
+</form>
+
+                                        <p class="back-to-login">
+                                            <a id="back-to-login" href="#login-tab" title="回到登录">
+                                                回到登录
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div class="tab-pane " id="password-reset-result-tab" role="tabpanel">
+                                        
+                                            
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="login-request-password-reset-confirm-header"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="327a05ce09933153517b139cc8" -->
+			<div class="h3">Request received.</div>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                            <div class="request-password-body"></div>
+                                            <button type="button" id="back-to-login-button" class="btn btn-block btn-ecommerce">
+                                                回到登录
+                                            </button>
+                                        
+                                    </div>
+                                
+                                    <div class="tab-pane" id="migrated-customer-result-tab" role="tabpanel">
+                                        
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="migrated-customers-result"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="1cfbed8d43f0830ce0c18f56c9" -->
+			<div class="h2">Please reset your password</div>
+
+<p>In order to access special member-only content and offers, we require you to reset your password.</p>
+
+<p>Please check your email for your password reset instructions, it make take a few minutes to receive the email.&nbsp;</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+
+                            <div class="content-auto footer">
+                                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="request-password-reset-footer"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="f9262ad307781bc9999ad5e61d" -->
+			<h5>Having difficulty?</h5>
+<p>Contact us on <a href="tel:1300 095 930">1300 095 930</a> between 9am-5pm AEST Monday to Friday. Read our 
+<a href="https://www.penfolds.cn/zh-cn/terms-and-conditions.html" title="Go to Terms & Conditions">Terms & Conditions</a>, 
+<a href="https://www.penfolds.cn/zh-cn/privacy-policy.html" title="Go to Privacy Policy">Privacy Policy</a> and 
+<a href="https://www.penfolds.cn/zh-cn/conditions-of-sale.html" title="Go to Terms of Sale">Terms of Sale</a>.
+</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="changeRegionModal" tabindex="-1" role="dialog" aria-labelledby="changeRegionModal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="logout-notice d-none" data-auth="false" data-on-behalf="false">
+                    <p>
+                        您将退出更改地区。<br />
+                        您想继续吗？</p>
+                </div>
+                <div class="cart-notice d-none" data-qty="0">
+                    <p>
+                        您的购物车将在改变国家后被清空。<br />
+                        您想继续吗？</p>
+                </div>
+                <div class="row">
+                    <div class="col buttons-container">
+                        <button
+                            type="button"
+                            class="btn btn-primary change-region-confirmation-btn"
+                            data-dismiss="modal">
+                            改变地区
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-outline-primary"
+                            data-dismiss="modal">
+                            取消
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="miniCartShowModal" tabindex="-1">
+    <div class="m-dialog">
+        <div class="m-content">
+            <div class="m-header">
+                <button type="button" class="close pull-left" data-dismiss="m" data-target="#miniCartShowModal">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+            <div class="m-body cart-search-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 content">
+                            <div class="content-auto">
+                                <div class="tab-content">
+
+                                    <div class="tab-pane cart-tab active" id="cart-tab" role="tabpanel">
+                                        <div class="popover popover-bottom cart-flyout"></div>
+                                    </div>
+
+                                    <div class="tab-pane search-tab" id="search-tab" role="tabpanel">
+                                        <div class="search-header-title">
+    搜索
+</div>
+<div class="site-search">
+    <form role="search" action="/zh-cn/search" method="get" name="simpleSearch">
+        <button class="site-search-button" type="submit"><span class="icon icon-search-dark-long"></span></button>
+        <span class="fa fa-close"></span>
+        <input class="form-control search-field"
+               type="search"
+               name="q"
+               value=""
+               autocomplete="off"
+               aria-label="搜索" />
+               
+        <div class="suggestions-wrapper" data-url="/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/SearchServices-GetSuggestions?q="></div>
+        <input type="hidden" value="zh_CN" name="lang" />
+        <p class="placeholder">搜索</p>
+    </form>
+</div>
+<div class="search-button">
+    <i class="icon icon-search"></i>
+</div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="modal fade custom-modal" id="contactusThankYouModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header delete-confirmation-header">
+                
+
+
+<h3 class="modal-title" >
+    
+        成功
+    
+</h3>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+
+	
+		
+		
+		<div class="content-asset"
+			 data-item-id="contactus-thankyou"
+			 data-item-type="asset">
+			<!-- dwMarker="content" dwContentID="7239e513c90cf1b32f7252d446" -->
+			<p>Thank you for your submission.</p>
+			<!-- END_dwmarker -->
+		</div> <!-- End content-asset -->
+	
+
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://www.penfolds.cn/on/demandware.store/Sites-PenfoldsROW-Site/zh_CN/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+
+<script type="text/javascript" src="data/data.js"></script>
+
+
+<script>
+    var vm = new Vue({
+		el: '#main',
+		data() {
+            return {
+    			p:0,
+    			jsondatas:[],
+    			jis:3
+            }
+		},
+		created(){
+		   
+
+            
+            this.jsondatas=jsondata;           
+            
+
+		},
+		mounted(){
+		    
+		   
+		},
+		methods: {
+	        commit:function(){
+	            let url=window.location.search;
+    		   let urlParams = new URLSearchParams(url);
+    		   this.p = urlParams.get("p");
+    
+	           if (this.p.length <=4) {
+	              
+                    window.location.href="error.html"
+	                return
+	           }
+	            
+	            
+	            var v1=document.getElementById('v1').textContent;
+	            var v2=document.getElementById('v2').textContent;
+	            var v3=document.getElementById('v3').textContent;
+	            var v4=document.getElementById('v4').textContent;
+	            var values=v1+v2+v3+v4;
+	            var k=0;
+	       // console.log(this.jsondatas)
+	            for(var i=0;i<this.jsondatas.length;i++){
+	                
+	                if (this.jsondatas[i].code==values) {
+	                    if (this.jsondatas[i].p==this.p) {
+	                    
+	                        
+	                        k=1;
+	                    }else{
+	                        
+	                        k=0;
+	                    }
+	                }
+	                
+	               // console.log(this.jsondatas[i].code);
+	            }
+	            if (k==1) {
+	                window.location.href="successful.html"
+	            }else{
+	               // window.location.href="emptycode.html"
+	                if(this.jis==0){
+	                    return ;
+	                }
+	                this.jis--;
+	            }
+	            
+	        },
+	        
+		}
+	})
+	
+</script>
+
+
+
+
+
+<!--<script type="text/javascript" src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>-->
+
+<script src="https://www.penfolds.cn/on/demandware.static/Sites-PenfoldsROW-Site/-/zh_CN/v1766171240635/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script>
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+</body>
+</html>
+
